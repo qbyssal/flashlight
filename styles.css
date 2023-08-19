@@ -25,10 +25,9 @@ section{
 }
 
 #flashlight{
-   mix-blend-mode:multiply;
    position:fixed;
    inset:0;
-   background:radial-gradient(circle at var(--x,0px) var(--y,0px), #fff 0vw,#010101 7vw);
+   background:radial-gradient(circle at var(--x,0px) var(--y,0px), rgba(0,0,0,0) 0vw,rgba(1,1,1,1) 7vw);
    pointer-events:none;
 }
 
