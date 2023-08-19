@@ -1,0 +1,45 @@
+*{
+   margin:0;
+   padding:0;
+   background:#fff;
+   font-family:sans-serif;
+}
+
+h1{
+  text-align:center;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  border-bottom:2px solid #ccc;
+}
+
+main{
+   height:100%;
+   margin: 0 25rem 0 25rem;
+   border:2px solid #ddd;
+   border-top:0;
+   border-bottom:0;
+}
+
+section{
+   padding:2rem 2rem 0 2rem
+}
+
+#flashlight{
+   mix-blend-mode:multiply;
+   position:fixed;
+   inset:0;
+   background:radial-gradient(circle at var(--x,0px) var(--y,0px), #fff 0vw,#010101 7vw);
+   pointer-events:none;
+}
+
+p{
+   padding:1rem 0 0 0
+}
+
+h3{
+   margin-top:1rem;
+}
+
+img{
+   padding-left:1rem;
+}
